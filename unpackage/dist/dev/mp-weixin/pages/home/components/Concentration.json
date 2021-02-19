@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tv-scroll": "/pages/home/components/child/TvScroll",
+    "tv-group": "/pages/home/components/child/TvGroup",
+    "title-group": "/pages/home/components/child/TitleGroup",
+    "list-scroll": "/pages/home/components/child/ListScroll",
+    "info-station": "/pages/home/components/child/InfoStation",
+    "classic": "/pages/home/components/child/Classic",
+    "carousel": "/components/Carousel"
+  }
+}

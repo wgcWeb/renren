@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": false,
+  "titleNView": "false",
+  "usingComponents": {
+    "concentration": "/pages/home/components/Concentration",
+    "search-input": "/components/SearchInput"
+  }
+}

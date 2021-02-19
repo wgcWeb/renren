@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": "false",
+  "usingComponents": {
+    "cate-list": "/pages/classification/components/CateList",
+    "cate-item": "/pages/classification/components/CateItem"
+  }
+}

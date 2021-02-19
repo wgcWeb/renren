@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/film/film",
+    "pages/Video/Video",
+    "pages/my/my",
+    "pages/list/list",
+    "pages/group/group",
+    "pages/RankingList/RankingList",
+    "pages/Schedule/Schedule",
+    "pages/classification/classification",
+    "pages/BingeWatching/BingeWatching",
+    "pages/WatchHistory/WatchHistory",
+    "pages/TvDetail/TvDetail",
+    "pages/SearchBox/SearchBox"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/film/film",
+        "iconPath": "static/img/tabbar/film.png",
+        "selectedIconPath": "static/img/tabbar/film-active.png",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/Video/Video",
+        "iconPath": "static/img/tabbar/video.png",
+        "selectedIconPath": "static/img/tabbar/video-active.png",
+        "text": "快看"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/tabbar/my.png",
+        "selectedIconPath": "static/img/tabbar/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap4.json"
+}

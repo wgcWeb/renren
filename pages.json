@@ -1,0 +1,142 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/film/film",
+			"style": {
+				"navigationBarTitleText": "电影",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/Video/Video",
+			"style": {
+				"navigationBarTitleText": "快看",
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/list/list",
+			"style": {
+				"navigationBarTitleText": "视频列表",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/group/group",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+		},
+		{
+			"path": "pages/RankingList/RankingList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		},
+		{
+			"path": "pages/Schedule/Schedule",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}, {
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}, {
+			"path": "pages/BingeWatching/BingeWatching",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}, {
+			"path": "pages/WatchHistory/WatchHistory",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}, {
+			"path": "pages/TvDetail/TvDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}, {
+			"path": "pages/SearchBox/SearchBox",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"titleNView": "false"
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/home-active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/film/film",
+			"iconPath": "static/img/tabbar/film.png",
+			"selectedIconPath": "static/img/tabbar/film-active.png",
+			"text": "电影"
+		}, {
+			"pagePath": "pages/Video/Video",
+			"iconPath": "static/img/tabbar/video.png",
+			"selectedIconPath": "static/img/tabbar/video-active.png",
+			"text": "快看"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/img/tabbar/my.png",
+			"selectedIconPath": "static/img/tabbar/my-active.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "titleNView": "false",
+  "usingComponents": {
+    "scroll-swiper": "/components/ScrollSwiper",
+    "btn-mask": "/components/BtnMask"
+  }
+}

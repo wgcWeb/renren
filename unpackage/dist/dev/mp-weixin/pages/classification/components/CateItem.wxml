@@ -1,0 +1,1 @@
+<view class="cate-item data-v-5b2b538b"><view class="img-content data-v-5b2b538b"><image src="{{list.img}}" mode class="data-v-5b2b538b"></image><text class="iconfont icon-Collect cate-icon data-v-5b2b538b"></text><text class="cate-point data-v-5b2b538b">{{list.point}}</text></view><view class="img-bottom data-v-5b2b538b">{{list.title}}</view></view>

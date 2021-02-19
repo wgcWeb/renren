@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "电影",
+  "enablePullDownRefresh": false,
+  "titleNView": "false",
+  "usingComponents": {
+    "carousel": "/components/Carousel",
+    "search-input": "/components/SearchInput",
+    "simple-scroll": "/pages/film/components/SimpleScroll",
+    "group-sheet": "/pages/group/components/GroupSheet",
+    "sheet": "/pages/group/components/Sheet"
+  }
+}
